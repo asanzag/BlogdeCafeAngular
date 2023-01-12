@@ -1,0 +1,15 @@
+<footer class="footer">
+    <div class="contenedor">        
+        <div class="barra">
+            <a class="logo" [routerLink]="['/home']">
+                <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+
+            <nav class="navegacion">
+                <a [routerLink]="['/nosotros']" [routerLinkActive]="['active']" class="navegacion__enlace">Nosotros</a>
+                <a [routerLink]="['/cursos']" [routerLinkActive]="['active']" class="navegacion__enlace">Cursos</a>
+                <a [routerLink]="['/contacto']" [routerLinkActive]="['active']" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+</footer>
